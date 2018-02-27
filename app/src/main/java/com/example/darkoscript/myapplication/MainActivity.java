@@ -48,10 +48,10 @@ public class MainActivity extends AppCompatActivity {
                 //compare the checked id with id of button selected
                 if (checkedRadioButton == checkedRadioButtonWithdraw) {
                     transaction_type.setText("withdraw charge");
-                    Toast.makeText(MainActivity.this, "withdraw radio button has been selected", Toast.LENGTH_LONG).show();
+                    //Toast.makeText(MainActivity.this, "withdraw radio button has been selected", Toast.LENGTH_LONG).show();
                 } else if (checkedRadioButton == checkedRadioButtonSend) {
                     transaction_type.setText("sending charge");
-                    Toast.makeText(MainActivity.this, "send radio button has been selected", Toast.LENGTH_LONG).show();
+                    //Toast.makeText(MainActivity.this, "send radio button has been selected", Toast.LENGTH_LONG).show();
                 }
             }
         });
